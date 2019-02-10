@@ -7,6 +7,9 @@ home_body{
 #image{
   width: auto;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 p{
