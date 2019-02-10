@@ -1,22 +1,52 @@
 .Header{
   text-align: center;
-  font: Georgia, 20px, #A9A9A9;
-  border: #D3D3D3, 1px;
+  font: Georgia, 20px;
+  color: #A9A9A9;
+  border-color:#D3D3D3;
+  border-radius: 1px;
   margin: 10px;
   padding: 10px;
 }
 .Lcontainer{
-  border: #D3D3D3, 1px;
+  border-color: #D3D3D3;
+  border-radius: 1px;
+  margin: 10px;
+  padding: 5px;
   display: grid;
   grid-template-columns: auto 40% 40% auto;
   grid-template-rows: auto 40% 40% auto;
-
+}
+#me{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+#jup{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+#SS{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+#resume{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
 
 .contact{
   text-align: center;
-  font: Georgia, 10px, #A9A9A9;
-  border: #D3D3D3, 1px;
+  font: Georgia, 10px;
+  color: #A9A9A9;
+  border-color:#D3D3D3;
+  border-radius: 1px;
   margin: 10px;
   padding: 20px;
 }
