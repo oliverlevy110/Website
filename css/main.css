@@ -68,14 +68,24 @@ img{
   height: 500px;
 }
 
-img:hover .img_hover{
-  width: inherit;
-  height: inherit;
-  opacity: 50%;
-  text-align: center;
+
+.img_hover{
+  position: absolute;
+  top: 50%;
+  left: 50%;
   font: Georgia 10px;
   color: #000000;
+  visibility: hidden;
 }
+img: hover{
+    opacity: .5;
+}
+
+img:hover .img_hover{
+  visibility: visible;
+}
+
+
 a{
   color:inherit;
 }
