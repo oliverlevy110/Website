@@ -1,8 +1,10 @@
 .Biography{
-  {
     font-style: italic;
     font-size: 20px;
     color: #A9A9A9;
-    text-align: justify;
-  }
+    text-align: center;
+
+}
+.archlinux{
+  align-self: center;
 }
