@@ -1,15 +1,15 @@
 
 .Header{
   text-align: center;
-  font: Georgia, 20px;
+  font: Georgia 20px;
   color: #696969;
-  border-bottom:#708090, 3px;
+  border-bottom: solid #708090 3px;
   margin: 10px;
   padding: 10px;
 }
 .Lcontainer{
-  border-color: #708090;
-  border-radius: 2px;
+  border-left: solid #708090 3px;
+  border-right: solid #708090 3px;
   margin: 10px;
   padding: 5px;
   display: grid;
@@ -43,18 +43,18 @@
 
 .contact{
   text-align: center;
-  font: Georgia, 10px;
+  font: Georgia 10px;
   color: #A9A9A9;
-  border-color:#708090;
-  border-radius: 2px;
+  border: solid #708090 3px;
 
   margin: 10px;
   padding: 20px;
 }
 
 .footer{
+  border-top: solid #708090 3px;
   text-align: center;
-  font: Georgia, 5px;
+  font: Georgia 5px;
   color: #A9A9A9;
   padding: 5px;
   text-decoration: none;
