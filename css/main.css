@@ -63,7 +63,7 @@
   padding: 5px;
   text-decoration: none;
 }
-images{
+.images{
   width: 500px;
   height: 500px;
 }
@@ -74,12 +74,12 @@ images{
   color: #000000;
   opacity: 0;
 }
-images:hover{
+.images:hover{
     opacity: .5;
 }
 
-images:hover .img_hover{
-  opacity: 1;
+.images:hover .img_hover{
+    opacity: 1;
 }
 
 
