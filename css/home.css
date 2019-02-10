@@ -3,6 +3,9 @@ home_body{
 
 }
 
+div{
+  width: 100%;
+}
 
 #image{
   width: auto;
