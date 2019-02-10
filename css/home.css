@@ -1,20 +1,12 @@
 home_body{
   background-color: #D3D3D3
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 100%;
+
 }
 
-#text{
-  grid-column: 1/2;
-  grid-rows: 0/1;
-}
 
 #image{
-  grid-column: 2/3;
-  grid-rows: 0/1;
-  width: auto;
-  height: auto;
+  width: 110%;
+  height: 110%;
 }
 
 p{
