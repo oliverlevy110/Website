@@ -77,7 +77,7 @@ img{
   color: white;
   opacity: 0;
   text-align: center;
-  background-color: black;
+  background-color: rgba(0,0,0,.5);
   transition: .5s ease;
 }
 .images:hover{
