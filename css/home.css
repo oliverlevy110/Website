@@ -3,15 +3,16 @@ home_body{
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 100%;
-  grid-template-areas: "text lighthouse";
 }
 
 #text{
-  grid-area: text;
+  grid-column: 0/1;
+  grid-rows: 0/1;
 }
 
 #image{
-  grid-area: lighthouse;
+  grid-column: 1/2;
+  grid-rows: 0/1;
   width: auto;
   height: auto;
 }
