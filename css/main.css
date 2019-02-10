@@ -81,7 +81,7 @@ img: hover{
     opacity: .5;
 }
 
-img:hover .img_hover{
+img: hover .img_hover{
   visibility: visible;
 }
 
