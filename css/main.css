@@ -70,9 +70,10 @@ img{
 
 
 .img_hover{
-  font: Georgia 10px;
+  font: Georgia 20px;
   color: #000000;
   opacity: 0;
+  text-align: center;
 }
 .images:hover{
     opacity: .5;
@@ -82,12 +83,8 @@ img{
     opacity: 1;
 }
 
-#ho_me{
+/*#ho_me{
   position: absolute;
-  top: 25%;
-  left: 25%;
-}
-#ho_jup{
   position: absolute;
   top: 25%;
   left: 75%;
@@ -102,7 +99,7 @@ img{
   top: 75%;
   left: 75%;
 }
-
+*/
 
 
 
