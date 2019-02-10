@@ -14,30 +14,36 @@
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: auto auto auto auto;
+
 }
 #me{
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
+  justify-self: center;
 }
 #jup{
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 3;
+  justify-self: center;
+
 }
 #SS{
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 4;
+  justify-self: center;
 }
 #resume{
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 4;
+  justify-self: center;
 }
 
 .contact{
@@ -52,7 +58,7 @@
 .footer{
   border-top: solid #708090 3px;
   text-align: center;
-  font: Georgia 5px;
+  font: Georgia 7px;
   color: #A9A9A9;
   padding: 5px;
   text-decoration: none;
@@ -60,6 +66,15 @@
 img{
   width: 500px;
   height: 500px;
+}
+
+img:hover .img_hover{
+  width: inherit;
+  height: inherit;
+  opacity: 50%;
+  text-align: center;
+  font: Georgia 10px;
+  color: #000000;
 }
 a{
   color:inherit;
