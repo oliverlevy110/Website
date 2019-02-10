@@ -63,7 +63,7 @@
   padding: 5px;
   text-decoration: none;
 }
-img{
+images{
   width: 500px;
   height: 500px;
 }
@@ -75,14 +75,14 @@ img{
   left: 50%;
   font: Georgia 10px;
   color: #000000;
-  visibility: hidden;
+  opacity: 0;
 }
-img: hover{
+images:hover{
     opacity: .5;
 }
 
-img: hover .img_hover{
-  visibility: visible;
+images:hover .img_hover{
+  opacity: 1;
 }
 
 
