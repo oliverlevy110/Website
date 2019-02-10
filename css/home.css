@@ -6,12 +6,12 @@ home_body{
 }
 
 #text{
-  grid-column: 0/1;
+  grid-column: 1/2;
   grid-rows: 0/1;
 }
 
 #image{
-  grid-column: 1/2;
+  grid-column: 2/3;
   grid-rows: 0/1;
   width: auto;
   height: auto;
