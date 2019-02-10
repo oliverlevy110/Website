@@ -71,7 +71,7 @@ img{
 
 .img_hover{
   position: relative;
-  top: 50%;
+  top: -50%;
   width: 500px;
   font: Georgia 20px;
   color: white;
@@ -88,23 +88,6 @@ img{
     opacity: 1;
 }
 
-/*#ho_me{
-  position: absolute;
-  position: absolute;
-  top: 25%;
-  left: 75%;
-}
-#ho_SS{
-  position: absolute;
-  top: 75%;
-  left: 25%;
-}
-#ho_resume{
-  position: absolute;
-  top: 75%;
-  left: 75%;
-}
-*/
 
 
 
