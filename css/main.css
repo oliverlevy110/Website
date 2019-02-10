@@ -70,16 +70,21 @@ img{
 
 
 .img_hover{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   font: Georgia 20px;
-  color: #000000;
+  color: white;
   opacity: 0;
   text-align: center;
+  background-color: black;
+  transition: .5s ease;
 }
 .images:hover{
     opacity: .5;
 }
 
-.images:hover .img_hover{
+.images:hover .img_hover {
     opacity: 1;
 }
 
