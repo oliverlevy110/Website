@@ -6,5 +6,11 @@
 
 }
 .archlinux{
+  width: 100%;
   align-self: center;
+}
+
+#arch{
+  width: auto;
+  height: auto;
 }
