@@ -71,7 +71,7 @@ img{
 
 .img_hover{
   position: relative;
-  bottom: 50%;
+  top: -250px;
   width: 500px;
   font: Georgia 20px;
   color: white;
